@@ -1,0 +1,39 @@
+.hero-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    /* 
+        background color: placeholder to 
+        visualize  space being taken
+     */
+    background-color: palegreen;
+    /* justify isn't working...? */
+    justify-content: space-around;
+}
+
+.left-hero{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 2rem;
+}
+.right-hero{
+    height: 300px;
+    flex: 1;
+}
+.right-hero img{
+    width: 300px;
+}
+.words-hero h1{
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+.words-hero p{
+    font-size: small;
+    margin-top: 0;
+}
+.words-hero{
+    width: 70%;
+}

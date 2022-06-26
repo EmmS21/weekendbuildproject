@@ -13,7 +13,7 @@ const NavBar = () => {
               <div>
                   Dashboard
               </div>
-              <div>
+              <div className='button-group'>
                   <button>Login</button>
                   <button>Signup</button>
               </div>
