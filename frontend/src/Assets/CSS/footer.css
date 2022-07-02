@@ -10,6 +10,7 @@
   flex-wrap: wrap;
   min-height: 50 vh;
   justify-content: space-around;
+  position: fixed;
 }
 .first-footer {
     display: flex;
