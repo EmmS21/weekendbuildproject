@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom/client';
 import './Assets/CSS/index.css';
 import './Assets/CSS/navbar.css';
 import './Assets/CSS/hero.css';
+import './Assets/CSS/footer.css';
 
 import App from './App';
 import { BrowserRouter as Router } from 'react-router-dom';
